@@ -10,13 +10,18 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.17.2",
+    "@ai-sdk/azure": "^2.0.11",
+    "@ai-sdk/openai": "^2.0.12",
+    "@ai-sdk/react": "^2.0.12",
     "@azure/data-tables": "^13.3.0",
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "ai": "^5.0.11",
     "chart.js": "^4.4.4",
     "mcp-handler": "^1.0.1",
     "next": "15.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
     "zod": "^3"
   },
   "devDependencies": {
@@ -27,9 +32,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "vitest": "^2.0.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^2.0.5"
   },
   "packageManager": "pnpm@10.11.1+sha512.e519b9f7639869dc8d5c3c5dfef73b3f091094b0a006d7317353c72b124e80e1afd429732e28705ad6bfa1ee879c1fce46c128ccebd3192101f43dd67c667912"
 }

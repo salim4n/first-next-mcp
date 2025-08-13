@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Chart, registerables } from "chart.js";
+import SimpleChatInterface from "../components/SimpleChatInterface";
 
 function ThWithTip({ label, tip }: { label: string; tip: string }) {
   return (
@@ -348,6 +349,9 @@ export default function UsagePage() {
           <div className="text-slate-500">No data</div>
         )}
       </div>
+      
+      {/* Chat Interface */}
+      <SimpleChatInterface />
     </div>
   );
 }
